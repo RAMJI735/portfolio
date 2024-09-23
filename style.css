@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg-img {
+    background-image: url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1080");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* fix rhegi */
+    width: 100%;
+    height: 680px;
+  }
+
+  .headerset {
+    padding-top: 250px;
+    box-sizing: border-box;
+  }
+
+  .headerset h2 {
+    font-size: 42px;
+  }
+
+  .headerset h1 {
+    font-size: 72px;
+    font-weight: bold;
+  }
+
+  .cards:hover {
+    background-color: black !important;
+    color: white;
+    transition: 1s;
+
+  }
+
+  @keyframes Myname {
+    from {
+      font-size: 10px;
+
+    }
+
+    to {
+      font-size: 15px;
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .resume-btn {
+    animation: Myname 2s linear 3s infinite normal;
+  }
+
+  .resume-btn:hover {
+    background-color: black;
+    color: white;
+    transform: translateX(20%);
+    /* transform: rotate(90deg); */
+    /* transform: skew(0deg, 150deg); */
+    transition: 2s;
+  }
+
+  @keyframes fontAnimation {
+          from {
+              font-size: 1rem;
+          }
+
+          to {
+              font-size: 1.1;
+          }
+
+      }
+
+      
+      .github:hover , .linkedin:hover , .instagram:hover ,.linked:hover,.insta:hover {
+          background-color: rgb(48, 159, 100);
+          color: white;
+          transition: 2s;
+          
+
+      }
+
+      @media screen and (max-width: 480px) {
+  .headerset{
+    height: 10rem;
+  }
+
+  .headerset h2{
+    font-size: 1rem;
+  }
+
+  .headerset h1{
+    font-size: 2rem;
+  }
+
+  .cards1{
+    margin: -1rem;
+  }
+}
