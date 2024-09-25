@@ -96,3 +96,16 @@
     margin: -1rem;
   }
 }
+
+@media  (max-width: 1200px) and (min-width: 768px) {
+   
+    .cardss{
+     
+      margin: 1.5rem;
+    }
+
+.cards{
+  height: 22rem !important;
+}
+}
+
