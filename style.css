@@ -14,6 +14,7 @@
 
   .headerset {
     padding-top: 250px;
+
     box-sizing: border-box;
   }
 
@@ -99,13 +100,32 @@
 
 @media  (max-width: 1200px) and (min-width: 768px) {
    
-    .cardss{
-     
-      margin: 1.9rem;
-    }
+  .cardss{
+   
+    margin-left: 9rem;
+    
+  }
 
 .cards{
-  height: 22rem !important;
+height: 25rem !important;
+width: fit-content !important;
 }
 }
 
+@media screen and (max-width:400px) {
+  .edu1{
+    margin-left: -37px;
+    background-color: blue;
+    color: white;
+    
+  }
+  .bg-img{
+    width: 109vw;
+  }
+
+  .skil{
+    margin-right: -2rem;
+    background-color: blue;
+    color: white;
+  }
+}
