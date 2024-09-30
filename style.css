@@ -117,17 +117,17 @@ width: fit-content !important;
     margin-left: -37px;
     background-color: blue;
     color: white;
-          width: 109vw;
+          width: 100vw;
     
   }
   .bg-img{
-    width: 109vw;
+    width: 100vw;
   }
 
   .skil{
     margin-right: -2rem;
     background-color: blue;
     color: white;
-          width: 109vw;
+          width: 100vw;
   }
 }
